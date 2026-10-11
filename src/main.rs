@@ -1,5 +1,6 @@
 use std::error::Error;
 mod mnist;
+mod network;
 
 fn main() -> Result<(), Box<dyn Error>> {
     {
